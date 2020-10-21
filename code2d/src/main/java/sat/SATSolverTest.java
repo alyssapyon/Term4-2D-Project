@@ -103,9 +103,9 @@ public class SATSolverTest {
             PrintWriter writer = new PrintWriter("outputfile.txt");
             writer.println("Time:" + timeTaken / 1000000.0 + "ms");
             if (e == null) {
-                writer.println("not satisfied");
+                writer.println("not satisfiable");
             } else {
-                writer.println("satisfied");
+                writer.println("satisfiable");
                 String envString = e.toString();
                 envString = envString.substring(13, envString.length() - 1);
                 envString = envString.replaceAll(", ", "\n");
