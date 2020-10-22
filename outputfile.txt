@@ -1,2 +1,2 @@
-Time:12701.6623ms
-not satisfied
+Time:15879.8375ms
+not satisfiable
