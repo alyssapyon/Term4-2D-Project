@@ -1,14 +1,14 @@
-Term4-2D-Project-50.001 
-|
-|-sat1.cnf
-|-test2020.cnf
-|-unsat3Large.cnf
-|
-|-outputfile.txt
-|
-|-code2d/src/main/java/sat
-  |-SATSolver.java
-  |-SATSolverTest.java
+Term4-2D-Project-50.001<br>
+|<br>
+|-sat1.cnf<br>
+|-test2020.cnf<br>
+|-unsat3Large.cnf<br>
+|<br>
+|-outputfile.txt<br>
+|<br>
+|-code2d/src/main/java/sat<br>
+&nbsp;&nbsp;&nbsp;&nbsp;|-SATSolver.java<br>
+&nbsp;&nbsp;&nbsp;&nbsp;|-SATSolverTest.java<br>
 
 
 
