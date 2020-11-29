@@ -14,13 +14,7 @@ Term4-2D-Project-50.001
 
 
 I changed my code a little from the previous submission
-    1. enter program argument: cnf file name -> eg. unsat3Large.cnf
-    2. run SATSolverTest.java
-    3. check outputfile.txt
 
-
-
-
-
-
-
+1. program argument: cnf file name -> eg. unsat3Large.cnf
+2. run SATSolverTest.java
+3. check outputfile.txt
