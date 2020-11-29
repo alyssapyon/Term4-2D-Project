@@ -37,6 +37,8 @@ public class SATSolverTest {
                 // BufferedReader reader = new BufferedReader(new FileReader("sat1.cnf"));
                 // BufferedReader reader = new BufferedReader(new FileReader("test_2020.cnf"));
                 Path path = Paths.get(args[0]);
+                System.out.println("file name: " + args[0]);
+//                System.out.println(path.toString());
                 BufferedReader reader = new BufferedReader(new FileReader(args[0]));
 
                 // declare variables
@@ -104,10 +106,10 @@ public class SATSolverTest {
                 ////////////////////////////////////////////////////////////////////////////////////////
 
                 // PART 3: WRITE OUTPUT TO NEW FILE
-                // PrintWriter writer = new PrintWriter("outputfile.txt");
-                PrintWriter writer = new PrintWriter(args[1]);
+                 PrintWriter writer = new PrintWriter("outputfile.txt");
+//                PrintWriter writer = new PrintWriter(args[1]);
+                writer.println("file name: " + args[0]);
                 writer.println("Time:" + timeTaken / 1000000.0 + "ms");
-                PrintWriter writer = new PrintWriter(args[1]);
                 if (e == null) {
                     writer.println("not satisfiable");
                 } else {

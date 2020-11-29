@@ -1,2 +1,3 @@
-Time:15879.8375ms
+file name: test_2020.cnf
+Time:13685.1372ms
 not satisfiable
