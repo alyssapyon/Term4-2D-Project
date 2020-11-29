@@ -1,5 +1,4 @@
 Term4-2D-Project-50.001<br>
-|<br>
 |-sat1.cnf<br>
 |-test2020.cnf<br>
 |-unsat3Large.cnf<br>
